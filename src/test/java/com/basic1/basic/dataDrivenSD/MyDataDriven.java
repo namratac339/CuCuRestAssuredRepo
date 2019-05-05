@@ -31,7 +31,7 @@ public class MyDataDriven {
 	public void user_update_name_with_name (String username) throws IOException{
 		
 		//Read data from file
-	    data = new String(Files.readAllBytes(Paths.get("C:\\RadicalSelenium\\SeleniumTraining\\B17CucuRestAssurred\\src\test\\java\\com\\basic1\\basic\\dataDrivenSD\\user.json"))); 
+	    data = new String(Files.readAllBytes(Paths.get("C:\\RadicalSelenium\\SeleniumTraining\\B17CucuRestAssurred\\src\\test\\java\\com\\basic1\\basic\\dataDrivenSD\\user.json"))); 
 	    System.out.println("json in String ==== " +data);
 	    
 	    //Update the data

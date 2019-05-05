@@ -1,4 +1,4 @@
-package com.basic.getRequestSD;
+package com.basic1.basic.getRequestSD;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -70,23 +70,4 @@ public class MyFirstepdef {
 		String actualCircuitValue = resp.getBody().jsonPath().getString(path);
 		Assert.assertEquals(expValue, actualCircuitValue);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}
+	}

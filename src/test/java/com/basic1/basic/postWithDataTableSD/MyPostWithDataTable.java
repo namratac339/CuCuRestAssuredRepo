@@ -1,4 +1,4 @@
-package com.basic.postWithDataTableSD;
+package com.basic1.basic.postWithDataTableSD;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
@@ -32,7 +32,7 @@ public class MyPostWithDataTable {
 		
 		//Read data from file
 		String data = ""; 
-	    data = new String(Files.readAllBytes(Paths.get("D:\\IBM\\workspace\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json"))); 
+	    data = new String(Files.readAllBytes(Paths.get("C:\\RadicalSelenium\\SeleniumTraining\\B17CucuRestAssurred\\src\\test\\java\\com\\basic1\\basic\\postWithDataTableSD\\user.json"))); 
 	    System.out.println("json in String ==== " +data);
 	    
 	    //Update the data

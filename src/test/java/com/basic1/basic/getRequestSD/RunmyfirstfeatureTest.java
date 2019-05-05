@@ -1,4 +1,4 @@
-package com.basic.getRequestSD;
+package com.basic1.basic.getRequestSD;
 
 import org.junit.runner.RunWith;
 

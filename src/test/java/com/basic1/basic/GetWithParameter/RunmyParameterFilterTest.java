@@ -1,4 +1,4 @@
-package com.basic.GetWithParameter;
+package com.basic1.basic.GetWithParameter;
 
 import org.junit.runner.RunWith;
 

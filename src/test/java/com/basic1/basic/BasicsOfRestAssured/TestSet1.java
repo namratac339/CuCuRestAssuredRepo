@@ -1,4 +1,4 @@
-package com.basic.BasicsOfRestAssured;
+package com.basic1.basic.BasicsOfRestAssured;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.equalTo;

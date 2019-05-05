@@ -8,9 +8,4 @@ Scenario: validate fb login scenario1
  Then check usename is present in textbox
  Then i am checking 
  
- Scenario: validate fb login scenario1
- Given the user is on facebook login page
- When he enters "Vedant" as usename
- When he enters "password" as password
- Then check usename is present in textbox
- Then i am checking 
+ 

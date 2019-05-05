@@ -1,4 +1,4 @@
-package com.basic.FirstFeatureTestGoogle;
+package com.basic1.basic.FirstFeatureTestGoogle;
 
 import org.junit.runner.RunWith;
 

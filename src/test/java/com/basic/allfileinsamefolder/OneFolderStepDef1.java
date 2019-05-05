@@ -21,28 +21,15 @@ public class OneFolderStepDef1 {
 		driver.get("https://www.facebook.com");
 	}
 	@When("^he enters \"([^\"]*)\" as usename$")
-	public void he_enters_as_usename(String arg1) {
-	driver.findElement(By.xpath("//td/input[@type=email]")).sendKeys("Namrata");
+	public void he_enters_as_usename(String arg1) throws InterruptedException {
+	Thread.sleep(5000);	
+	driver.findElement(By.xpath("//td/input[@type='email']")).sendKeys("Namrata");
 		
 	}
 	@When("^he enters \"([^\"]*)\" as password$")
 	public void he_enters_as_password(String arg1)  {
-	    driver.findElements(By.xpath("//*[@id=pass]")).sendKeys("Namrata");
+	    driver.findElement(By.xpath("//*[@id=pass]")).sendKeys("Namrata");
 	    
 	}
 
-	@Then("^check usename is present in textbox$")
-	public void check_usename_is_present_in_textbox() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-
-	@Then("^i am checking$")
-	public void i_am_checking() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
-	}
-
-
-	
 }

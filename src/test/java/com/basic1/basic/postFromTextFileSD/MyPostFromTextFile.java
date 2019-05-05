@@ -1,4 +1,4 @@
-package com.basic.postFromTextFileSD;
+package com.basic1.basic.postFromTextFileSD;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -27,7 +27,8 @@ public class MyPostFromTextFile {
 	@Given("^user hit the post request from text file$")
 	public void user_hit_the_post_request_with_json_data() throws IOException{
 		
-		File file = new File("D:\\IBM\\workspace\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json");
+		File file = new File("C:\\RadicalSelenium\\cucumber\\test\\test\\java\\com\\basic\\postFromTextFileSD\\user.json");
+//				new File("D:\\IBM\\workspace\\CucuRestAssured\\src\\test\\java\\com\\basic\\postFromTextFileSD\\user.json");
 	    //String content = null;
 		
 		resp = RestAssured.given().accept(ContentType.JSON).relaxedHTTPSValidation().

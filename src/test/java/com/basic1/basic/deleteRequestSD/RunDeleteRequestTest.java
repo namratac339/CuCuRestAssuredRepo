@@ -1,4 +1,4 @@
-package com.basic.deleteRequestSD;
+package com.basic1.basic.deleteRequestSD;
 
 import org.junit.runner.RunWith;
 

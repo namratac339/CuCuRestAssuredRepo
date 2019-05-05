@@ -1,4 +1,4 @@
-package com.basic.FirstFeatureTestGoogle;
+package com.basic1.basic.FirstFeatureTestGoogle;
 
 
 import cucumber.api.java.en.Then;

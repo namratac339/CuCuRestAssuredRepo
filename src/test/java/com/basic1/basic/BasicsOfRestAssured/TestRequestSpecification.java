@@ -1,4 +1,4 @@
-package com.basic.BasicsOfRestAssured;
+package com.basic1.basic.BasicsOfRestAssured;
 
 //import org.testng.Assert;
 //import org.testng.annotations.BeforeClass;

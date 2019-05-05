@@ -1,4 +1,4 @@
-package com.basic.postStringJsonSD;
+package com.basic1.basic.postStringJsonSD;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

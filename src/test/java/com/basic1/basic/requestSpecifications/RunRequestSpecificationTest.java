@@ -1,4 +1,4 @@
-package com.basic.requestSpecifications;
+package com.basic1.basic.requestSpecifications;
 
 import org.junit.runner.RunWith;
 

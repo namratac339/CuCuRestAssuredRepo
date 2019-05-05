@@ -1,4 +1,4 @@
-package com.basic.requestSpecifications;
+package com.basic1.basic.requestSpecifications;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;

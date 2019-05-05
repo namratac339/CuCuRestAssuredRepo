@@ -1,4 +1,4 @@
-package com.basic.testing;
+package com.basic1.basic.testing;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;

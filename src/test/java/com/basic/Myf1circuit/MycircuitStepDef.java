@@ -14,11 +14,11 @@ import static org.hamcrest.Matchers.*;
 
 
 public class MycircuitStepDef {
-	private static final Object actualcircuitvalue = null;
+
 	Response resp;
 	@Given("^user start the rest assusered test$")
 	public void user_start_the_rest_assusered_test() throws Throwable {
-	   
+	   resp=RestAssured.given().get("https://ergast.com/api/f1/2017/circuits.json");
 	   
 	}
 
@@ -32,14 +32,14 @@ public class MycircuitStepDef {
 	public void user_checks_the_count_size() throws Throwable {
 	  String limitValue=resp.getBody().jsonPath().getString("MRData.limit");
 	  Assert.assertEquals("30", limitValue);
-	  resp.then().assertThat().body("MRData.CircuitTable.Circuits.circuitId,hassize(20)");
+  resp.then().assertThat().body("MRData.CircuitTable.Circuits.circuitId",hasSize(20));
 	}
 
 	@Then("^user checks at path \"([^\"]*)\"value")
 	public void user_checks_at_path(String expectedcircuitvalue) throws Throwable {
 	   System.out.println("verify string value  ");
 		String actualCircuitValue=resp.getBody().jsonPath().getString("MRData.limit");
-		Assert.assertEquals(expectedcircuitvalue,actualcircuitvalue);
+		Assert.assertEquals(expectedcircuitvalue,actualCircuitValue);
 	}
 
 

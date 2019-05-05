@@ -1,4 +1,4 @@
-package com.basic.GetWithParameter;
+package com.basic1.basic.GetWithParameter;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

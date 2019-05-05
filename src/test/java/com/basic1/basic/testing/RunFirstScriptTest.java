@@ -1,4 +1,4 @@
-package com.basic.testing;
+package com.basic1.basic.testing;
 
 import org.junit.runner.RunWith;
 

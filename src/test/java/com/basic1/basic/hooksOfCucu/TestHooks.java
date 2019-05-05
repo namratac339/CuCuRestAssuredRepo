@@ -21,7 +21,7 @@ public class TestHooks {
 				.accept(ContentType.JSON);
 				//.headers("","");
 	}
-	@Before
+//	@Before
 	@Given("^user hit the get request$")
 	public void user_hit_the_get_request(){
 		Response resp = RestAssured.given().spec(req).relaxedHTTPSValidation().
@@ -33,6 +33,7 @@ public class TestHooks {
 	
 	@After
 	public void tearDown(){
+		System.out.println("in after");
 		//Code the remove the data which was created 
 		//cleanup code
 		//databse connection close 
@@ -40,6 +41,7 @@ public class TestHooks {
 	
 	@After(order=2)
 	public void tearDown1(){
+		System.out.println("in after 2");
 		//Code the remove the data which was created 
 		//cleanup code
 		//database connection close 
